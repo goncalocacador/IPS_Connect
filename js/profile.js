@@ -64,7 +64,7 @@ async () => {
         );
 
         window.location.href =
-        "Login.html";
+        "Login.HTML";
 
     }
     catch(error){

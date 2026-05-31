@@ -100,14 +100,14 @@ Atualmente o projeto inclui principalmente a camada de apresentação (Frontend)
 IPS_Connect
 │
 ├── html
-│   ├── Login.html
-│   ├── CreateAccount.html
-│   ├── ForgetPassword.html
-│   ├── Home.html
-│   ├── Search.html
-│   ├── Payments.html
-│   ├── Scheduling.html
-│   └── Profile.html
+│   ├── Login.HTML
+│   ├── CreateAccount.HTML
+│   ├── ForgetPassword.HTML
+│   ├── Home.HTML
+│   ├── Search.HTML
+│   ├── Payments.HTML
+│   ├── Scheduling.HTML
+│   └── Profile.HTML
 │
 ├── css
 │   ├── login.css

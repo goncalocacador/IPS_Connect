@@ -39,7 +39,7 @@ if(loginForm){
       alert("Login efetuado!");
 
       window.location.href =
-      "Home.html";
+      "Home.HTML";
 
    }
    catch(error){
@@ -83,7 +83,7 @@ if(registerForm){
       );
 
       window.location.href =
-      "Login.html";
+      "Login.HTML";
 
    }
    catch(error){
