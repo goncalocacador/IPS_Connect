@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPS Connect - Pagamentos</title>
+
+  
+<link rel="stylesheet" href="../css/payments.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+
+</head>
+
+<body>
+
+<div class="container">
+
+  
+<header class="payments-header">
+
+    <h2>Pagamentos</h2>
+
+    <i class="fa-regular fa-credit-card"></i>
+
+</header>
+
+<section class="balance-card">
+
+    <div>
+
+        <p>Saldo em aberto</p>
+
+        <h1 id="saldo">450,00 €</h1>
+
+        <span>Valor total a pagar</span>
+
+    </div>
+
+    <i class="fa-solid fa-wallet"></i>
+
+</section>
+
+<section>
+
+    <h3>Detalhes</h3>
+
+    <div class="payment-card">
+
+        <div>
+
+            <h4>Propinas 2º Semestre</h4>
+
+            <p>Referência: 2023/2024</p>
+
+        </div>
+
+        <strong>450,00 €</strong>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h3>Histórico de pagamentos</h3>
+
+    <div class="history-card">
+
+        <div>
+
+            <h4>Propinas 1º Semestre</h4>
+
+            <p>Pago em 15/10/2024</p>
+
+        </div>
+
+        <strong>450,00 €</strong>
+
+    </div>
+
+    <div class="history-card">
+
+        <div>
+
+            <h4>Seguro Escolar</h4>
+
+            <p>Pago em 10/10/2023</p>
+
+        </div>
+
+        <strong>15,00 €</strong>
+
+    </div>
+
+    <div class="history-card">
+
+        <div>
+
+            <h4>Emissão de Cartão</h4>
+
+            <p>Pago em 05/09/2023</p>
+
+        </div>
+
+        <strong>10,00 €</strong>
+
+    </div>
+
+</section>
+
+<button
+    id="mbwayBtn"
+    class="mbway-btn">
+
+    <i class="fa-solid fa-money-bill"></i>
+
+    Pagar com MB WAY
+
+</button>
+
+<section>
+
+    <div class="receipt-card">
+
+        <i class="fa-regular fa-file-pdf"></i>
+
+        <div>
+
+            <h4>Recibos e Faturas</h4>
+
+            <p>
+                Consulta e descarrega todos os teus documentos.
+            </p>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </div>
+
+</section>
+
+<nav class="bottom-nav">
+
+    <a href="Home.html">
+
+        <i class="fa-solid fa-house"></i>
+
+        <span>Home</span>
+
+    </a>
+
+    <a href="Search.html">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <span>Pesquisa</span>
+
+    </a>
+
+    <a class="active">
+
+        <i class="fa-solid fa-wallet"></i>
+
+        <span>Pagamentos</span>
+
+    </a>
+
+    <a href="Scheduling.html">
+
+        <i class="fa-solid fa-calendar"></i>
+
+        <span>Agenda</span>
+
+    </a>
+
+    <a href="Profile.html">
+
+        <i class="fa-solid fa-user"></i>
+
+        <span>Perfil</span>
+
+    </a>
+
+</nav>
+  
+
+</div>
+
+<div id="paymentSuccess" class="modal">
+
+    <div class="modal-content">
+
+        <h3>Pagamento efetuado!</h3>
+
+        <p>
+            O pagamento das propinas foi realizado com sucesso.
+        </p>
+
+        <button onclick="fecharModal()">
+            Fechar
+        </button>
+
+    </div>
+
+</div>
+<script src="../js/theme.js"></script>
+<script src="../js/payments.js"></script>
+
+</body>
+
+</html>
