@@ -18,6 +18,6 @@ document
         );
 
         window.location.href =
-        "home.HTML";
+        "Home.HTML";
     }
 });
